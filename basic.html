@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Station</title>
+</head>
+<body bgcolor="lightyellow">
+
+    <!-- Header Section -->
+    <h1 align="center"> Welcome to Railway Station</h1>
+    <hr>
+
+    <!-- Navigation Links -->
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="#about">About Station</a></li>
+        <li><a href="#schedule">Train Schedule</a></li>
+        <li><a href="#ticket">Book Ticket</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <!-- About Section -->
+    <h2 id="about">About Our Station</h2>
+    <p>
+        Our railway station is one of the busiest stations in India. 
+        It provides safe and fast journeys across the country.
+    </p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DxhA1O9OOlFsNx4NUHv3Q4WZa0rpuGcP4g&s" 
+         alt="Railway Station" width="400">
+
+    <!-- Train Schedule Section -->
+    <h2 id="schedule">Train Schedule</h2>
+    <table border="2" cellpadding="10" cellspacing="0">
+        <tr bgcolor="lightblue">
+            <th>Train Name</th>
+            <th>Train No.</th>
+            <th>Arrival</th>
+            <th>Departure</th>
+            <th>Destination</th>
+        </tr>
+        <tr>
+            <td>Rajdhani Express</td>
+            <td>12301</td>
+            <td>10:30 AM</td>
+            <td>10:45 AM</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Shatabdi Express</td>
+            <td>12001</td>
+            <td>12:15 PM</td>
+            <td>12:30 PM</td>
+            <td>Mumbai</td>
+        </tr>
+    </table>
+
+    <!-- Ticket Booking Form -->
+    <h2 id="ticket">Book Your Ticket</h2>
+    <form>
+        Name: <input type="text" name="name"><br><br>
+        Age: <input type="number" name="age"><br><br>
+        Gender: 
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+        Destination: 
+        <select name="destination">
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Kolkata</option>
+            <option>Chennai</option>
+        </select><br><br>
+        <input type="submit" value="Book Ticket">
+        <input type="reset" value="Clear">
+    </form>
+
+    <!-- Contact Section -->
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: <a href="mailto:info@railwaystation.com">info@railwaystation.com</a></p>
+    <p>Phone: +91-9876543210</p>
+
+    <hr>
+    <marquee behavior="scroll" direction="left">Thank you for visiting our Railway Station Website!</marquee>
+</body>
+</html>
